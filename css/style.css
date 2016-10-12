@@ -1,44 +1,166 @@
-.entry{
-  width: 350px;
-  float: left;
-  background-color: skyblue;
+/*@media screen and (min-width: 768px) {
+  .column{
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
 }
-h2{
-  font-size: 20px;
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
 }
-.intro img{
-  width: 45%;
-  height: 45%;
-  border: 15px dashed black;
+@media screen and (max-width: 480px) {
+  body{
+    background-color: teal;
+  }
+}*/
+@media screen and (min-width: 1001px) {
+  .entry{
+    width: 350px;
+    float: left;
+    background-color: skyblue;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .intro img{
+    width: 45%;
+    height: 45%;
+    border: 15px dashed black;
+  }
+  img{
+    width: 140px;
+    height: 120px;
+  }
+  .intro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: fantasy;
+  }
+  .entry p{
+    color: black;
+    position: static;
+  }
+  .intro p{
+    color: black;
+    position: static;
+  }
+  p {
+    color: red;
+    margin-top: 15px;
+    position: absolute;
+    top: 1450px;
+    right: 200px;
+  }
+  .entry a {
+    color: green;
+  }
+  .intro a{
+    color: pink;
+  }
 }
-img{
-  width: 140px;
-  height: 120px;
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    body {
+      background-color: grey;
+      color: black;
+    }
+    .entry{
+      width: 350px;
+      float: left;
+      background-color: skyblue;
+    }
+    h2{
+      font-size: 20px;
+    }
+    .intro img{
+      width: 45%;
+      height: 45%;
+      border: 15px dashed black;
+    }
+    img{
+      width: 140px;
+      height: 120px;
+    }
+    .intro{
+      text-align: center;
+      font-weight: bold;
+      font-size: 22pt;
+      font-family: fantasy;
+    }
+    .entry p{
+      color: black;
+      position: static;
+    }
+    .intro p{
+      color: black;
+      position: static;
+    }
+    p {
+      color: red;
+      margin-top: 15px;
+      position: absolute;
+      top: 1450px;
+      right: 200px;
+    }
+    .entry a {
+      color: green;
+    }
+    .intro a{
+      color: pink;
+    }
 }
-.intro{
-  text-align: center;
-  font-weight: bold;
-  font-size: 22pt;
-  font-family: fantasy;
+@media screen and (max-width: 699px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .entry{
+    background-color: skyblue;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .intro img{
+    width: 45%;
+    height: 45%;
+    border: 15px dashed black;
+  }
+  img{
+    width: 140px;
+    height: 120px;
+  }
+  .intro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    font-family: fantasy;
+  }
+  .entry p{
+    color: black;
+    position: static;
+  }
+  .intro p{
+    color: black;
+    position: static;
+  }
+  p {
+    color: red;
+    margin-top: 15px;
+    position: absolute;
+    top: 1450px;
+    right: 200px;
+  }
+  .entry a {
+    color: green;
+  }
+  .intro a{
+    color: pink;
+  }
 }
-.entry p{
-  color: black;
-  position: static;
-}
-.intro p{
-  color: black;
-  position: static;
-}
-p {
-  color: red;
-  margin-top: 15px;
-  position: absolute;
-  top: 1450px;
-  right: 200px;
-}
-.entry a {
-  color: green;
-}
-.intro a{
-  color: pink;
+
+
 }
