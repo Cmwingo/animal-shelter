@@ -3,6 +3,14 @@
   float: left;
   background-color: skyblue;
 }
+h2{
+  font-size: 20px;
+}
+.intro img{
+  width: 45%;
+  height: 45%;
+  border: 15px dashed black;
+}
 img{
   width: 140px;
   height: 120px;
@@ -25,10 +33,10 @@ p {
   color: red;
   margin-top: 15px;
   position: absolute;
-  top: 1250px;
+  top: 1450px;
   right: 200px;
 }
-a {
+.entry a {
   color: green;
 }
 .intro a{
