@@ -28,3 +28,9 @@ p {
   top: 1250px;
   right: 200px;
 }
+a {
+  color: green;
+}
+.intro a{
+  color: pink;
+}
