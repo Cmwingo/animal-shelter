@@ -1,0 +1,30 @@
+.entry{
+  width: 350px;
+  float: left;
+  background-color: skyblue;
+}
+img{
+  width: 140px;
+  height: 120px;
+}
+.intro{
+  text-align: center;
+  font-weight: bold;
+  font-size: 22pt;
+  font-family: fantasy;
+}
+.entry p{
+  color: black;
+  position: static;
+}
+.intro p{
+  color: black;
+  position: static;
+}
+p {
+  color: red;
+  margin-top: 15px;
+  position: absolute;
+  top: 1250px;
+  right: 200px;
+}
